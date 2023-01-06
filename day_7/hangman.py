@@ -4,7 +4,7 @@ word_list = ["aardvark", "baboon", "camel"]
 blank = ""
 chosen_word = r.choice(word_list)
 for n in range(len(chosen_word)):
-    blank += "_"
+    blank += " _"
 
 # while:
 guess = input("Guess a letter:\n").lower()
